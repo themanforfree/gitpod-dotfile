@@ -5,15 +5,15 @@ sudo dpkg -i gcm-linux_amd64.2.0.785.deb
 rm gcm-linux_amd64.2.0.785.deb
 git-credential-manager configure
 
-code --install-extension christian-kohler.path-intellisense
-code --install-extension eamodio.gitlens
-code --install-extension esbenp.prettier-vscode
-code --install-extension GitHub.copilot
-code --install-extension Gruntfuggly.todo-tree
-code --install-extension mhutchie.git-graph
-code --install-extension ms-vscode.cpptools
-code --install-extension rust-lang.rust-analyzer
-code --install-extension serayuzgur.crates
-code --install-extension tamasfe.even-better-toml
-code --install-extension usernamehw.errorlens
-code --install-extension vadimcn.vscode-lldb
+gitpod-code --install-extension christian-kohler.path-intellisense
+gitpod-code --install-extension eamodio.gitlens
+gitpod-code --install-extension esbenp.prettier-vscode
+gitpod-code --install-extension GitHub.copilot
+gitpod-code --install-extension Gruntfuggly.todo-tree
+gitpod-code --install-extension mhutchie.git-graph
+gitpod-code --install-extension ms-vscode.cpptools
+gitpod-code --install-extension rust-lang.rust-analyzer
+gitpod-code --install-extension serayuzgur.crates
+gitpod-code --install-extension tamasfe.even-better-toml
+gitpod-code --install-extension usernamehw.errorlens
+gitpod-code --install-extension vadimcn.vscode-lldb
