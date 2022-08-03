@@ -1,4 +1,4 @@
-sudo apt update && sudo apt install -y neofetch
+sudo apt update && sudo apt install -y neofetch libprotobuf-dev protobuf-compiler
 
 wget https://github.com/GitCredentialManager/git-credential-manager/releases/download/v2.0.785/gcm-linux_amd64.2.0.785.deb
 sudo dpkg -i gcm-linux_amd64.2.0.785.deb
